@@ -1,0 +1,30 @@
+CLI commands
+chmod +x compile.sh
+./compile.sh
+
+Direction PINS
+    Left Motor / Motor 0
+        MCU -> PC0 | PC1
+        ARDUINO -> A0 | A1
+
+    Right Motor or Motor 1
+        MCU -> PC2 | PC3
+        ARDUINO -> A2 | A3
+
+
+PWM Pins
+    Left Motor / Motor 0
+        ARDUINO - 6
+        MCU - PD6
+    RIGHT Motor / Motor 1
+        ARDUINO - 5
+        MCU - PD5
+
+ENCODER
+    Ticks - Interupts
+        L - Motor 0
+            ARDUINO - 6
+            MCU - PD2
+    Direction - IO
+        L - Motor 0
+            ARDUINO - A5
